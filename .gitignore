@@ -6,6 +6,7 @@
 *.coverage
 *.tsbuildinfo
 *~
+*.sqlite3
 .DS_Store
 .tmp*
 .tox

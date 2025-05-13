@@ -56,7 +56,7 @@ version of NodeJS.
 	cd django-admin-sortable2
 	npm install --include=dev
 	npm run build
-	npm run minify
+	# npm run minify
 	python -m pip install Django
 	python -m pip install -r testapp/requirements.txt
 

@@ -28,6 +28,17 @@ This is a major rewrite of this **django-admin-sortable2**. It replaces the clie
 
 Replacing that library allowed me to add a new feature: Multiple items can now be dragged and dropped together.
 
+## CNK fork
+
+I wanted to upgrade a project that uses this library to Django 5.2. I didn't have time
+to put in a proper PR to update so I forked and build at local distribution for this. I
+didn't make any code changes but needed to kludge the github actions to build this in a
+way that included Django 5.2 templates.
+
+Note: to build this, I needed to manually install `setuptools`, `wheel`, and `build`.
+Then I could run the patch lines from `.github/workflows/publish.yml` and then build
+with `python -m build --sdist --wheel --outdir dist/`
+
 
 ## Project's Home
 
